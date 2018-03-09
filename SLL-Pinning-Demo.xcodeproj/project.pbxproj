@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8431A87A20525FC70020A56F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431A87920525FC70020A56F /* AppDelegate.swift */; };
+		8431A87C20525FC70020A56F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431A87B20525FC70020A56F /* ViewController.swift */; };
+		8431A87F20525FC70020A56F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8431A87D20525FC70020A56F /* Main.storyboard */; };
+		8431A88120525FC70020A56F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8431A88020525FC70020A56F /* Assets.xcassets */; };
+		8431A88420525FC70020A56F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8431A88220525FC70020A56F /* LaunchScreen.storyboard */; };
+		8431A88E205261180020A56F /* CustomSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431A88B205261170020A56F /* CustomSessionDelegate.swift */; };
+		8431A88F205261180020A56F /* IT.cer in Resources */ = {isa = PBXBuildFile; fileRef = 8431A88C205261180020A56F /* IT.cer */; };
+		8431A890205261180020A56F /* CustomServerTrustPolicyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431A88D205261180020A56F /* CustomServerTrustPolicyManager.swift */; };
+		9737DF0E2A2043EFAB94C0F6 /* Pods_SLL_Pinning_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CB6B1D2176DE5A2D87DC23 /* Pods_SLL_Pinning_Demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		112C309B4FE43D975EDD39C4 /* Pods-SLL-Pinning-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLL-Pinning-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SLL-Pinning-Demo/Pods-SLL-Pinning-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		35CB6B1D2176DE5A2D87DC23 /* Pods_SLL_Pinning_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLL_Pinning_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB282420E56CF93F609CAE7 /* Pods-SLL-Pinning-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLL-Pinning-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SLL-Pinning-Demo/Pods-SLL-Pinning-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		8431A87620525FC70020A56F /* SLL-Pinning-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SLL-Pinning-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8431A87920525FC70020A56F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8431A87B20525FC70020A56F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8431A87E20525FC70020A56F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8431A88020525FC70020A56F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8431A88320525FC70020A56F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8431A88520525FC70020A56F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8431A88B205261170020A56F /* CustomSessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSessionDelegate.swift; sourceTree = "<group>"; };
+		8431A88C205261180020A56F /* IT.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = IT.cer; sourceTree = "<group>"; };
+		8431A88D205261180020A56F /* CustomServerTrustPolicyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomServerTrustPolicyManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8431A87320525FC70020A56F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9737DF0E2A2043EFAB94C0F6 /* Pods_SLL_Pinning_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AFBAD6A794DFDC25A0B2F2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				112C309B4FE43D975EDD39C4 /* Pods-SLL-Pinning-Demo.debug.xcconfig */,
+				6BB282420E56CF93F609CAE7 /* Pods-SLL-Pinning-Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8431A86D20525FC70020A56F = {
+			isa = PBXGroup;
+			children = (
+				8431A87820525FC70020A56F /* SLL-Pinning-Demo */,
+				8431A87720525FC70020A56F /* Products */,
+				5AFBAD6A794DFDC25A0B2F2B /* Pods */,
+				9B0A5631EB6E7FD3B55A42DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8431A87720525FC70020A56F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8431A87620525FC70020A56F /* SLL-Pinning-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8431A87820525FC70020A56F /* SLL-Pinning-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8431A87920525FC70020A56F /* AppDelegate.swift */,
+				8431A87B20525FC70020A56F /* ViewController.swift */,
+				8431A88D205261180020A56F /* CustomServerTrustPolicyManager.swift */,
+				8431A88B205261170020A56F /* CustomSessionDelegate.swift */,
+				8431A88C205261180020A56F /* IT.cer */,
+				8431A87D20525FC70020A56F /* Main.storyboard */,
+				8431A88020525FC70020A56F /* Assets.xcassets */,
+				8431A88220525FC70020A56F /* LaunchScreen.storyboard */,
+				8431A88520525FC70020A56F /* Info.plist */,
+			);
+			path = "SLL-Pinning-Demo";
+			sourceTree = "<group>";
+		};
+		9B0A5631EB6E7FD3B55A42DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35CB6B1D2176DE5A2D87DC23 /* Pods_SLL_Pinning_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8431A87520525FC70020A56F /* SLL-Pinning-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8431A88820525FC70020A56F /* Build configuration list for PBXNativeTarget "SLL-Pinning-Demo" */;
+			buildPhases = (
+				4B68372B18122C5B9174A007 /* [CP] Check Pods Manifest.lock */,
+				8431A87220525FC70020A56F /* Sources */,
+				8431A87320525FC70020A56F /* Frameworks */,
+				8431A87420525FC70020A56F /* Resources */,
+				6E7D3FF7CF517AE12A9AE3D3 /* [CP] Embed Pods Frameworks */,
+				F5DC80E554E713212B8DF8B3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SLL-Pinning-Demo";
+			productName = "SLL-Pinning-Demo";
+			productReference = 8431A87620525FC70020A56F /* SLL-Pinning-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8431A86E20525FC70020A56F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					8431A87520525FC70020A56F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8431A87120525FC70020A56F /* Build configuration list for PBXProject "SLL-Pinning-Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8431A86D20525FC70020A56F;
+			productRefGroup = 8431A87720525FC70020A56F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8431A87520525FC70020A56F /* SLL-Pinning-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8431A87420525FC70020A56F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8431A88420525FC70020A56F /* LaunchScreen.storyboard in Resources */,
+				8431A88120525FC70020A56F /* Assets.xcassets in Resources */,
+				8431A87F20525FC70020A56F /* Main.storyboard in Resources */,
+				8431A88F205261180020A56F /* IT.cer in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B68372B18122C5B9174A007 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SLL-Pinning-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E7D3FF7CF517AE12A9AE3D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SLL-Pinning-Demo/Pods-SLL-Pinning-Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SLL-Pinning-Demo/Pods-SLL-Pinning-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5DC80E554E713212B8DF8B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SLL-Pinning-Demo/Pods-SLL-Pinning-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8431A87220525FC70020A56F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8431A87C20525FC70020A56F /* ViewController.swift in Sources */,
+				8431A87A20525FC70020A56F /* AppDelegate.swift in Sources */,
+				8431A890205261180020A56F /* CustomServerTrustPolicyManager.swift in Sources */,
+				8431A88E205261180020A56F /* CustomSessionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8431A87D20525FC70020A56F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8431A87E20525FC70020A56F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8431A88220525FC70020A56F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8431A88320525FC70020A56F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8431A88620525FC70020A56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8431A88720525FC70020A56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8431A88920525FC70020A56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112C309B4FE43D975EDD39C4 /* Pods-SLL-Pinning-Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7938Q97H32;
+				INFOPLIST_FILE = "SLL-Pinning-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.poojaF.SLL-Pinning-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8431A88A20525FC70020A56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BB282420E56CF93F609CAE7 /* Pods-SLL-Pinning-Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7938Q97H32;
+				INFOPLIST_FILE = "SLL-Pinning-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.poojaF.SLL-Pinning-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8431A87120525FC70020A56F /* Build configuration list for PBXProject "SLL-Pinning-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8431A88620525FC70020A56F /* Debug */,
+				8431A88720525FC70020A56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8431A88820525FC70020A56F /* Build configuration list for PBXNativeTarget "SLL-Pinning-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8431A88920525FC70020A56F /* Debug */,
+				8431A88A20525FC70020A56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8431A86E20525FC70020A56F /* Project object */;
+}
